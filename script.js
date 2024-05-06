@@ -1,8 +1,6 @@
 function romanConverter(){
-
     const input = document.getElementById("number").value;
     console.log(input);
-    
     if(input === ""){
       document.getElementById("output").innerHTML = "Please enter a valid number";
     } else if (input < 1){
@@ -12,7 +10,6 @@ function romanConverter(){
     } else {
       document.getElementById("output").innerHTML = convert(input);
     }
-    
     }
     
     function convert(num){
